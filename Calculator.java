@@ -1,7 +1,7 @@
 package basic;
+// One = Number1 || Two = Number2 // ma = Mathematical Action 
 
 import java.util.Scanner;
-import  basic.Calculator ;
 public class Calculator {
 	public static void main (String [] args) {
 		Scanner in = new Scanner (System.in) ;
@@ -11,7 +11,7 @@ public class Calculator {
 		One = in.nextDouble() ;
 		System.out.println("Choose your second number");
 		Two = in.nextDouble() ;
-		System.out.println("1 = * | 2 = / | 3 = + | 4 = - | choose mathematic action");
+		System.out.println("1 = * | 2 = / | 3 = + | 4 = - | choose mathematical action");
 		ma = in.nextInt() ;
 		if(ma == 1){
 			System.out.println((double)One * (double)Two);
